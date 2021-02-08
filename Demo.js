@@ -36,30 +36,3 @@ document.write("<h2>Boolean type result is " + result + "</h2>");
 var result1 = Boolean(true);
 var result2 = Boolean(false);
 document.write(result1 == result2);
-
-var arr = new Array(5);
-arr[0] = 0;
-arr[1] = "Num1";
-arr[2] = 2;
-arr[3] = true;
-arr[4] = false;
-
-document.write("<p>");
-
-document.write(arr[0]);
-
-document.write("<p>");
-
-document.write(arr[1]);
-
-document.write("<p>");
-
-document.write(arr[2]);
-
-document.write("<p>");
-
-document.write(arr[3]);
-
-document.write("<p>");
-
-document.write(arr[4]);
