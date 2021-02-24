@@ -1,9 +1,9 @@
 //Ex4
 //============================================
 
-function taxCalculator(percentage) { // This is parent function
+function taxCalculator(percentage) { // This is parent function. percentage is parent's variable
     return function (amount) { // This is internal function
-        return amount * percentage;
+        return amount * percentage; // this is example for abstraction
     }
 }
 
