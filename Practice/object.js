@@ -48,9 +48,8 @@ function Cars(car_name, car_model, car_price) {
 }
 
 var c1 = new Cars("Honda", "Civic", 250000);
-c1.displayCar();
-
-document.write("<h3>" + c1.car_check() + "<h3>");
-
 var c2 = new Cars("Toyota", "Vitz", 350000);
+
+c1.displayCar();
+document.write("<h3>" + c1.car_check() + "<h3>");
 c2.displayCar();
